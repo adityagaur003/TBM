@@ -12,7 +12,7 @@ import ReservationList from "./pages/ReservationList";
 import CategoryPage from "./pages/CategoryPage";
 import SearchPage from "./pages/SearchPage";
 
-function App() {
+function App()  {
   return (
     <div>
       <BrowserRouter>
