@@ -60,7 +60,7 @@ const Navbar = () => {
             <Person sx={{ color: variables.darkgrey }} />
           ) : (
             <img
-              src={`http://localhost:3001/${user.profileImagePath.replace(
+              src={`https://tbm-omega.vercel.app/${user.profileImagePath.replace(
                 "public",
                 ""
               )}`}
